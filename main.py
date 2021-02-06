@@ -16,8 +16,7 @@ TOKEN_dic = {'Authorization': 'Bearer' + ' ' + TOKEN}
 base_url = 'https://kabutan.jp/stock/?code='
 #keyに企業名、valueに証券コードを入れる
 codes_dic = {
-    'シャープ' : 6753,
-    'ハブ' : 3030,
+    '任天堂':7974
 }
 
 price_dic = {}
