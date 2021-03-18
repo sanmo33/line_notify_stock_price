@@ -2,12 +2,6 @@ from modules.base import get_price
 
 import requests
 import configparser
-import jpholiday
-import datetime
-
-#祝日判定:祝日ならexit
-if jpholiday.is_holiday(datetime.datetime.now()):
-    exit()
 
 #config.iniからlineのkeyを持ってくる。
 config_ini = configparser.ConfigParser()
